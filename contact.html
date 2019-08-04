@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Indian Cricket Team Page</title>
+    <style>
+        body {
+            background-color: #f2f6ff;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a {
+            text-decoration: none;
+        }
+        form {
+            border-color: #ccc;
+            border-width: 1px;
+            padding: 80px 80px 40px;
+            background-color: white;
+        }
+        .topbar {
+            text-align: center;
+        }
+        .pages {
+			font-weight: bold;
+            font-size: 20px;
+			padding-right: 0.5em;
+		}
+        .input-fields {
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #ccc;
+            width: 300px;
+        }
+        #submit-button {
+            background-color: #0056ff;
+            padding: 12px 24px;
+            font-size: 18px;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <span class="pages"><a href="./index.html">Home</a></span>
+        <span class="pages"><a href="./about.html">About</a></span>
+        <span class="pages"><a href="./contact.html">Contact</a></span>
+    </div>
+    <h2>Please fill this form to keep in touch with us!</h2>
+    <form>
+        <input class='input-fields' type="text" placeholder="Name" /><br />
+        <input class='input-fields' type="email" placeholder="Email" /><br />
+        <input class='input-fields' type="tel" placeholder="Phone Number" /><br />
+        <div style="text-align: center"><input id="submit-button" type="submit" value="Register" /></div>
+    </form>
+</body>
